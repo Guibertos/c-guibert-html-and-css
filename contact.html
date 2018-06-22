@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Afriski Contact Page</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="keywords" content="html, redesign, afriski">
+	<meta name="description" content="afriski redesign website">
+	<meta name="author" content="Camy Guibert">
+	<!--[if lt IE 9]>
+		<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+	<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+	<header id="header-contact">
+		<a href="index.html"><img src="img/AfriSki_logo.png"></a>
+		<!-- NAV HOVER EFFECT <nav class="hover">
+			<ul id="container">
+				<li><a href="#" class="hover-effect">About</a></li>
+				<li><a href="stay.html" class="hover-effect">Stay</a>
+					<ul class="drop">
+						<li><a href="#">Budget</a></li>
+						<li><a href="#">Lodges</a></li>
+						<li><a href="#">Chalets</a></li>
+						<li><a href="#">Apartments</a></li>
+						<li><a href="#">Facilities</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="hover-effect">Play</a></li>
+				<li><a href="#" class="hover-effect">Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav> -->
+		<nav>
+			<ul id="drop-nav">
+				<li><a href="#">About</a></li>
+				<li><a href="stay.html">Stay</a>
+					<ul>
+						<li><a href="#">Budget</a></li>
+						<li><a href="#">Lodges</a></li>
+						<li><a href="#">Chalets</a></li>
+						<li><a href="#">Apartments</a></li>
+						<li><a href="#">Facilities</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Play</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<section class="right-container">
+			<div class="right-block">
+			<form action="contact.php" method="POST">
+					<ul class="form-style">
+						<li>
+							<label>Name</label>
+							<input type="text" name="fullName" required placeholder="full name" class="field">
+						</li>
+						<li>
+							<label>Email</label>
+							<input type="email" name="email" required placeholder="email address" class="field">
+						</li>
+						<li>
+							<label>Subject</label>
+							<input type="subject" name="subject" required placeholder="subject" class="field">
+						</li>
+						<li>
+							<label>Message</label>
+							<textarea name="message" class="field textarea-field"></textarea>
+						</li>
+						<li>
+							<input type="submit" name="send">
+						</li>
+					</ul>
+			</form>
+			</div>
+		</section>
+		<section class="left-container">
+			<div class="left-content">
+				<hr class="style-03">
+				<hr class="style-04">
+				<h1>contact</h1>
+				<h2>Central Reservations</h2>
+				<h3>Telephone</h3>
+				<p>+266 595 44 734</p>
+				<p>+266 571 24 302</p>
+				<h3>Email</h3>
+				<p>booking@afiski.net</p>
+				<h3>Office Hours</h3>
+				<p>Monday - Friday</p>
+				<p>9h00am - 4h30pm</p>
+			</div>
+			<div class="left-locate">
+				<h1>Location</h1>
+				<p>Oxbow - Mapholaneng Rd, Mahlasela Pass, </p>
+				<p>Maluti Mountains, Lesotho, 195</p>
+				<h2>Border hours</h2>
+				<h3>Caledonspoort</h3>
+				<p>6h00am - 10h00pm, seven days a week</p>
+				<h3>Ficksburg</h3>
+				<p>open 24 hours</p>
+			</div>
+			<div class="map-wrapper">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6344.462287252685!2d28.729193241620905!3d-28.824022019732556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef2cc89d9585a0f%3A0x1724d0bf7afe979b!2sAfriski+Mountain+Resort!5e0!3m2!1sen!2sza!4v1529619018945" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</section>
+	</header>
+	<div class="clearfix"></div>
+	<footer>
+		<div class="contact-us">
+			<h3>Contact Us</h3>
+			<p>Tel: +266 595 44 734</p>
+			<p>+266 572 24 302</p>
+			<p>E-mail: bookings@afriski.net</p>
+		</div>
+		<div class="locate-us">
+			<h3>Locate Us</h3>
+			<p>Oxbow - Mapholaneng Rd, Mahlasela Pass</p>
+			<p>Maluti Mountains, Lesotho, 195</p>
+		</div>
+		<div class="social-media">
+			<a href="https://www.facebook.com/resort.afriski/"><i class="fab fa-facebook-square"></i></a>
+			<a href="https://twitter.com/SkiAfriski"><i class="fab fa-twitter-square"></i></a>
+			<a href="https://www.instagram.com/afriskimountainresort/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.tripadvisor.co.za/Attraction_Review-g681286-d803219-Reviews-Afriski_Mountain_Resort-Butha_Buthe_Butha_Buthe_District.html"><i class="fab fa-tripadvisor"></i></a>			
+	</footer>
+</body>
+</html>
